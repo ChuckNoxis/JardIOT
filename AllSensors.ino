@@ -17,16 +17,12 @@ void	setup()
   Serial.begin(9600);
   while (!Serial) ; // wait for serial port to connect. Needed for Leonardo only
   /*
-  **
   ** Initialisation of the BMP180
-  **
   */
   delay(1000);//Wait recommended delay before accessing BMP180
   (pressure.begin()) ? succes(1) : error(1);
   /*
-  **
   ** Initialisation of the SD Card
-  **  
   */
   pinMode(10, OUTPUT);
   if (!SD.begin(4))
@@ -34,9 +30,7 @@ void	setup()
   else
     succes(2);
   /*
-  **
   ** Initialisation of the RTC
-  **
   */
   Wire.begin();
   RTC.begin();

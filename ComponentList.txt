@@ -1,0 +1,29 @@
+NodeMCU
+  Sensors :
+  	  - Raindrop
+	  - Air Quality
+	  - Luminosity
+	  - Moisture
+	  - DHT22 (Temp & Humidity)
+	  - BMP 280 (Humidity & Pressure)
+	  - (Anemometer)
+
+  Communications :
+  	  - GSM Kit
+	  - Bluetooth 4.0
+	  - NodeMCU (WiFi)
+
+  Displays :
+  	  - LCD 1602 (16*2 Display)
+	  - RGB LED
+  
+  Actionners :
+  	  - Water Pump
+	  - Solenoid Valve
+
+  Power :
+  	  - Solar Pannel
+	  - Lipo Battery
+
+  Miscellaneous :
+  	  - Arduino Camera Module
